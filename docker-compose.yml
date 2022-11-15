@@ -20,7 +20,7 @@ services:
 #      - 443:443/tcp
 
   monolithic:
-    image: lancachenet/monolithic:latest
+    image: lancachenet/monolithic:ps5_test
     env_file: .env
     restart: *restart-policy
     ports:
